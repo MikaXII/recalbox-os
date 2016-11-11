@@ -1,1 +1,8 @@
+---
+layout: page
+title: "About"
+description: "This is what I do."
+header-img: "img/about-bg.jpg"
+---
+
 Content in english fuck yeah!
