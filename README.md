@@ -1,61 +1,24 @@
-[![English](http://upload.wikimedia.org/wikipedia/commons/e/e1/Union_Jack_22x16.png "English")](README.md)
-[![Italiano](http://upload.wikimedia.org/wikipedia/commons/7/70/Flag_of_italy.png "Italiano")](README-IT.md) 
-[![Français](http://upload.wikimedia.org/wikipedia/commons/1/14/Flag_of_france.png "Française")](README-FR.md)
-[![Deutsch](http://upload.wikimedia.org/wikipedia/commons/4/4b/Flag_of_germany.png "Deutsch")](README-DE.md)
-[![Portugues](http://upload.wikimedia.org/wikipedia/commons/a/aa/Flag_of_Portugal_icon.png "Portugues")](README-PT.md)
-[![Español](http://upload.wikimedia.org/wikipedia/commons/3/30/Flag_of_spain.png "Español")](README-ES.md)
-[![Türkçe](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/24px-Flag_of_Turkey.svg.png "Türkçe")](README-TR.md)
-****
-# recalbox-os
-**New : v3.2.11 Corrected same name controller bug, added zoid theme**
+#Clean Blog by Start Bootstrap - Jekyll Version
 
-**New : v3.2.4 New recalbox.conf system, new boot system.**
+The official Jekyll version of the Clean Blog theme by [Start Bootstrap](http://startbootstrap.com/).
 
-**New : v3.2.3 Bug corrections, Analog joystick and L2/R2 added in joystick config**
+###[View Live Demo &rarr;](http://blackrockdigital.github.io/startbootstrap-clean-blog-jekyll/)
 
-**New : recalboxOS is now compatible with RPi2 !**
+## Before You Begin
 
-**New : get all infos on recalbox-os on the [WIKI](https://github.com/digitalLumberjack/recalbox-os/wiki)**
+In the _config.yml file, the base URL is set to /startbootstrap-clean-blog-jekyll which is this themes gh-pages preview. It's recommended that you remove the base URL before working with this theme locally!
 
-The super repository for recalbox.
+It should look like this:
+`baseurl: ""`
 
-This repository purpose is the regroup the differents recalbox projects in one to clarify and make it more easy to compile the system.
+## What's Included
 
-## Presentation
-recalboxOS is a light embedded system created to run on the raspberryPi and raspberryPI 2.
+A full Jekyll environment is included with this theme. If you have Jekyll installed, simply run `jekyll serve` in your command line and preview the build in your browser. You can use `jekyll serve --watch` to watch for changes in the source files as well.
 
-You can transform your rpi in an emulation platform, supporting up to 32 systems !
+A Grunt environment is also included. There are a number of tasks it performs like minification of the JavaScript, compiling of the LESS files, adding banners to apply the MIT license, and watching for changes. Run the grunt default task by entering `grunt` into your command line which will build the files. You can use `grunt watch` if you are working on the JavaScript or the LESS.
 
+You can run `jekyll serve --watch` and `grunt watch` at the same time to watch for changes and then build them all at once.
 
-## Features 
-- Supports Atari 2600, Atari 7800, NES, Game Boy, Game Boy color, Game Boy Advance, Super Nintendo, Famicom Disk System, Master System, Megadrive (Genesis), Gamegear, Game and Watch, Lynx, NeoGeo, NeoGeo Pocket, FBA (subset), iMame4all (subset), PCEngine, Supergrafx, MSX1/2, PSX, Sega Cd, Sega 32X, Sega SG1000, Playstation, ScummVM, Vectrex, VirtualBoy, Wonderswan
-- Build with buildroot, so the root file system is only 100MB compressed.
-- Rescue system based on NOOBS : reinstall directly from your sd card or get the last version from the net
-- Online update
-- Network access to rom folder, screenshots, saves.
-- fat32 rom partition : compatible with all systems
-- Controller configuration in the frontend : configure once, play everywhere.
-- Background frontend music
-- PS3 and Shanwan Bluetooth built-in support (plug a controller, unplug and play)
-- French, English, Portugues (thanks to mgoulart), Spanish, German, Italian and maybe other to come if you participate.
-- Frontend based on Aloshi great EmulationStation2
-- FBA optimized version with 4 player support (yeah Dungeons and Dragons)
-- Use RPi GPIOs as controllers
+## Support
 
-## Projects
-**recalboxOS** is the main project, that aggregate the 3 sub-projects composing the system :
-
-- **recalbox-buildroot** : 
-https://github.com/digitalLumberjack/recalbox-buildroot (branch recalbox)  
-The recalbox-buildroot project is the buildroot system. It create the whole linux os that will run on the recalbox.
-You could compile this project, then copy output files to a manually formatted SD card to run the system on a raspberryPi. But there is a better way, called recalbox-rescue.
-
-- **recalbox-rescue** : 
-https://github.com/digitalLumberjack/recalbox-rescue (branch recalbox)  
-Based on the awesome NOOBS from rpi team, the recalbox rescue allows you to easily install retroboxOS and have a rescue partition on your SD card. It's an other minimal OS, that will download retroboxOS, format your SD card, and install the system for you.  
-It will check if a new version is available from the net, before installing SD card version. 
-
-- **recalbox-emulationstation** : 
-https://github.com/digitalLumberjack/recalbox-emulationstation/tree/recalbox-buildroot  
-Based on the Aloshi awesome emulationstation 2, the frontend has been a little modified to have ogg bg music, language selection, update support and controller configuration.
-
+Visit Clean Blog's template overview page on Start Bootstrap at http://startbootstrap.com/template-overviews/clean-blog/ and leave a comment, email feedback@startbootstrap.com, or open an issue here on GitHub for support.
