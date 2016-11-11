@@ -1,6 +1,6 @@
 # Site settings
 title: RecalBlog
-header-img: img/home-bg.jpg
+header-img: img/recalbox-cover.jpg
 email: mika@recalbox.com
 copyright_name: Recalbox
 description: "Blog about recalbox os and retrogamming lovers !"
@@ -8,7 +8,7 @@ baseurl: "/recalbox-os"
 url: "http://yourdomain.com"
 twitter_username: Recalbox
 github_username: Recalbox 
-facebook_username:  StartBootstrap
+facebook_username:  Recalbox
 email_username:  mika@recalbox.com
 
 # Google Analytics
