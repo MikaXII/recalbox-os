@@ -4,7 +4,7 @@ header-img: img/recalbox-cover.jpg
 email: mika@recalbox.com
 copyright_name: Recalbox
 description: "Blog about recalbox os and retrogamming lovers !"
-baseurl: "/recalbox-os"
+#baseurl: "/recalbox-os"
 url: "http://yourdomain.com"
 twitter_username: Recalbox
 github_username: Recalbox 
@@ -22,4 +22,6 @@ permalink: pretty
 paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
-gems: [jekyll-paginate, jekyll-feed]
+gems: [jekyll-paginate, jekyll-feed, jekyll-multiple-languages-plugin]
+languages: ["fr","en"]
+exclude_from_localizations: ["javascript", "images", "css"]
